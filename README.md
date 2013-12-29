@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just run generator with following command:
+
+    $ rails generate dynsass:create_stylesheet
+
+This will copy scss.erb file into sass directory and main lib file into lib/classes.
 
 ## Contributing
 
