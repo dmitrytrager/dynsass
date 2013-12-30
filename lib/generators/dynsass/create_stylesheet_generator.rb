@@ -4,7 +4,7 @@ module Dynsass
       source_root File.expand_path("../../templates", __FILE__)
 
       def generate_dynsass
-        template "dyn_stylesheet.scss.erb", "app/assets/stylesheets/sass/"
+        template "dyn_stylesheet.scss.erb", "app/assets/stylesheets/sass/dyn_stylesheet.scss.erb"
         template "dynamic_stylesheet.rb", "lib/classes/dynamic_stylesheet.rb"
       end
     end
